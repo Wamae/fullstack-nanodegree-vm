@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,request,redirect,url_for
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database_setup import Restaurant, Base, MenuItem
@@ -8,7 +8,8 @@ app = Flask(__name__)
 engine = create_engine('sqlite:///restaurantmenu.db')
 Base.metadata.bind = engine
 
-
+DBSession = sessionmaker(bind=engine)
+session = DBSession()
 
 @app.route('/')
 @app.route('/restaurant/<int:restaurant_id>/')
@@ -24,13 +25,34 @@ def restaurantMenu(restaurant_id):
 
 @app.route('/restaurant/<int:restaurant_id>/new',methods=['GET','POST'])
 def newMenuItem(restaurant_id):
-    return "page to create a new menu item. Task 1 complete!"
+    if request.method == 'POST':
+        if request.form['name']:
+            newItem = MenuItem(name=request.form['name'],restaurant_id=restaurant_id)
+            session.add(newItem)
+            session.commit()
+            return redirect(url_for('restaurantMenu',restaurant_id=restaurant_id))
+    else:
+        return render_template('new_menu_item.html',restaurant_id=restaurant_id)
 
 # Task 2: Create route for editMenuItem function here
 
-@app.route('/restaurant/<int:restaurant_id>/<int:menu_id>/edit')
+@app.route('/restaurant/<int:restaurant_id>/<int:menu_id>/edit',methods=['GET','POST'])
 def editMenuItem(restaurant_id, menu_id):
-    return "page to edit a menu item. Task 2 complete!"
+    menuItem = session.query(MenuItem).filter_by(id=menu_id).one()
+
+    if request.method == 'POST':
+        newName = request.form['name']
+
+        if menuItem:
+            menuItem.name = newName
+            menuItem.description = request.form['description']
+            session.add(menuItem)
+            session.commit()
+            return redirect(url_for('restaurantMenu',restaurant_id=restaurant_id))
+        else:
+            return "Menu Item not found!"
+    else:
+        return render_template('edit_menu_item.html',restaurant_id=restaurant_id,menu=menuItem)
 
 # Task 3: Create a route for deleteMenuItem function here
 
