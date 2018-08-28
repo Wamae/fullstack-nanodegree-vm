@@ -11,15 +11,20 @@ Base.metadata.bind = engine
 
 
 @app.route('/')
-@app.route('/hello')
-def HelloWorld():
+@app.route('/restaurant/<int:restaurant_id>/')
+def restaurantMenu(restaurant_id):
     DBSession = sessionmaker(bind=engine)
     session = DBSession()
-    restaurant = session.query(Restaurant).first()
+    restaurant = session.query(Restaurant).filter_by(id=restaurant_id).one()
     items = session.query(MenuItem).filter_by(restaurant_id = restaurant.id)
     output = ""
     for i in items:
         output += i.name
+        output += '</br>'
+        output += i.price
+        output += '</br>'
+        output += i.description
+        output += '</br>'
         output += '</br>'
 
     return  output
