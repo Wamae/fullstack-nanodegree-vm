@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0713d83e-d0fc-4f38-8b1e-4dcbc0486f88" name="Default Changelist" comment="Adds edit and delete links to main menu">
-      <change afterPath="$PROJECT_DIR$/templates/edit_menu_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new_menu_item.html" afterDir="false" />
+    <list default="true" id="0713d83e-d0fc-4f38-8b1e-4dcbc0486f88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/delete_menu_item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurantmenu.db" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantmenu.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +45,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="py" value="9" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="8" />
           <entry key="Scratch" value="1" />
@@ -65,15 +62,15 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="html" value="682" />
-          <entry key="py" value="3610" />
-          <entry key="txt" value="139" />
+          <entry key="py" value="3626" />
+          <entry key="txt" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="682" />
-          <entry key="PLAIN_TEXT" value="145" />
-          <entry key="Python" value="3610" />
+          <entry key="PLAIN_TEXT" value="167" />
+          <entry key="Python" value="3626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -91,12 +88,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state relative-caret-position="203">
+              <caret line="62" column="90" selection-start-line="62" selection-start-column="90" selection-end-line="62" selection-end-column="90" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <marker date="1535466543784" expanded="true" signature="1132:1308" ph="..." />
+                <marker date="1535467050593" expanded="true" signature="1141:1320" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/delete_menu_item.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -155,6 +161,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>item</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -168,6 +186,7 @@
         <option value="$PROJECT_DIR$/templates/menu.html" />
         <option value="$PROJECT_DIR$/templates/new_menu_item.html" />
         <option value="$PROJECT_DIR$/templates/edit_menu_item.html" />
+        <option value="$PROJECT_DIR$/templates/delete_menu_item.html" />
         <option value="$PROJECT_DIR$/project.py" />
       </list>
     </option>
@@ -217,9 +236,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535466558788" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535467065607" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,7 +278,7 @@
       <workItem from="1535111791741" duration="82000" />
       <workItem from="1535111904302" duration="934000" />
       <workItem from="1535436106558" duration="9724000" />
-      <workItem from="1535447340028" duration="8533000" />
+      <workItem from="1535447340028" duration="9039000" />
     </task>
     <task id="LOCAL-00001" summary="Creates routes for new, edit and delete">
       <created>1535461392844</created>
@@ -281,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535464023324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updates a MenuItem">
+      <created>1535466580772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535466580772</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19273000" />
+    <option name="totallyTimeSpent" value="19779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -331,7 +358,8 @@
     <MESSAGE value="Creates routes for new, edit and delete" />
     <MESSAGE value="Adds menu.html template for list of restaurants" />
     <MESSAGE value="Adds edit and delete links to main menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds edit and delete links to main menu" />
+    <MESSAGE value="Updates a MenuItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates a MenuItem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lotsofmenus.py">
@@ -354,13 +382,6 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -399,13 +420,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/delete_menu_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        <state relative-caret-position="203">
+          <caret line="62" column="90" selection-start-line="62" selection-start-column="90" selection-end-line="62" selection-end-column="90" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <marker date="1535466543784" expanded="true" signature="1132:1308" ph="..." />
+            <marker date="1535467050593" expanded="true" signature="1141:1320" ph="..." />
           </folding>
         </state>
       </provider>
