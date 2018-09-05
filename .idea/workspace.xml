@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0713d83e-d0fc-4f38-8b1e-4dcbc0486f88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fullstack-nanodegree-vm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fullstack-nanodegree-vm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurantmenu.db" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantmenu.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/delete_menu_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/delete_menu_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit_menu_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edit_menu_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/new_menu_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new_menu_item.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +34,15 @@
     <session id="-783034709">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,15 +66,15 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="html" value="853" />
-          <entry key="py" value="4180" />
-          <entry key="txt" value="161" />
+          <entry key="py" value="4181" />
+          <entry key="txt" value="292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="853" />
-          <entry key="PLAIN_TEXT" value="167" />
-          <entry key="Python" value="4180" />
+          <entry key="PLAIN_TEXT" value="298" />
+          <entry key="Python" value="4181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -99,11 +92,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+            <state relative-caret-position="232">
+              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
               <folding>
-                <element signature="e#0#82#0" expanded="true" />
-                <marker date="1536051688883" expanded="true" signature="2951:3400" ph="..." />
+                <marker date="1536053753665" expanded="true" signature="2951:3400" ph="..." />
               </folding>
             </state>
           </provider>
@@ -112,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="420">
               <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -177,39 +169,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fullstack-nanodegree-vm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fullstack-nanodegree-vm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536051719423" />
-    <property name="last_opened_file_path" value="/var/www/html/new_courier" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536063322484" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -249,7 +216,8 @@
       <workItem from="1535436106558" duration="9724000" />
       <workItem from="1535447340028" duration="9039000" />
       <workItem from="1535538336792" duration="643000" />
-      <workItem from="1536048832374" duration="2854000" />
+      <workItem from="1536048832374" duration="5715000" />
+      <workItem from="1536070402407" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Creates routes for new, edit and delete">
       <created>1535461392844</created>
@@ -279,15 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535466580772</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adds create, edit, and delete functionlity for menu items. Also API endpoint for restaurants and menu items">
+      <created>1536051978263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536051978263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23276000" />
+    <option name="totallyTimeSpent" value="26763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24940239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -330,7 +304,8 @@
     <MESSAGE value="Adds menu.html template for list of restaurants" />
     <MESSAGE value="Adds edit and delete links to main menu" />
     <MESSAGE value="Updates a MenuItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates a MenuItem" />
+    <MESSAGE value="Adds create, edit, and delete functionlity for menu items. Also API endpoint for restaurants and menu items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds create, edit, and delete functionlity for menu items. Also API endpoint for restaurants and menu items" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lotsofmenus.py">
@@ -347,10 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2340">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1535446362502" expanded="true" signature="8332:8334" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,23 +360,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database_setup.py">
+    <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="232">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1536053753665" expanded="true" signature="2951:3400" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.py">
+    <entry file="file://$PROJECT_DIR$/database_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        <state relative-caret-position="420">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding>
-            <element signature="e#0#82#0" expanded="true" />
-            <marker date="1536051688883" expanded="true" signature="2951:3400" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
